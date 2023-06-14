@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>my login form</title>
+        <link rel="stylesheet" href="login.css">
+        <body>
+            <div class="loginbox">
+                <img src="person.png" class="person">
+                <h1>Login here</h1>
+                <form>
+                    <p>username</p>
+                    <input type="text" name="" placeholder="Enter firstname">
+                    <div class="input-box">
+                        <p>password</p><br>
+                        <input type="text" name="" placeholder="Enter password" id="password">
+                        <img src="closedeye.png" id="eyeicon">
+                    </div>
+                    <input type="submit" name="" value="login"><br>
+                    <a href="#">Forgot Your Password?</a><br>
+                    <a href="registration.html">Do you have an account?</a><br>
+                    </form>
+            </div>
+            <script>
+                let eyeicon=document.getElementById("eyeicon")
+                let password=document.getElementById("password")
+    
+                eyeicon.onclick=function(){
+                    if(password.type==password){
+                    password.type="text";
+                } else { password.type="password";
+            }
+        }
+            </script>
+        </body>
+    </head>
+</html>

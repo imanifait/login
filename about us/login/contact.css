@@ -1,0 +1,89 @@
+.contact{
+    background: rgb(54, 114, 54);
+    box-sizing: border-box;
+    width: 500px auto;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 80px;
+    top: 50px;
+    margin-bottom: 20px;
+    padding: 40px 15%;
+}
+.contact-form p{
+    color: #fff;
+    text-align: center;
+    top: 200px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    color: #fb2525;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.contact .contact-form .right-side{
+    position: relative;
+    width: 75%;
+    text-align: center;
+    margin-left: 100px;
+}
+.right-side input[type="submit"]:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #fb2525;
+}
+.contact .contact-form .container{
+    width: 25%;
+    position: absolute;
+    margin-top: -400px;
+    font-size: 20px;
+    color: #fb2525;
+
+}
+.right-side input[type="text"], textarea{
+    padding: 17px;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    background: rgb(247, 224, 224);
+    border-radius: 10px;
+    width: 300px;
+  }
+  .right-side input[type="submit"]{
+    background: #fb2525;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    padding: 15px 0px;
+}
+.contact .contact-form .container .topic{
+    font-weight: bold;
+    font-size: 22px;
+}
+.contact-form .container::before{
+    transform: translateY(-50%);
+    height: 150%;
+    width: 2px;
+    background: #000;
+    right: -5px;
+    position: absolute;
+    content: '';
+    top: 100px;
+}
+.contact .contact-form .container .part-one ,.contact .contact-form .container .part-two{
+    color: #afafb6;
+}
+
